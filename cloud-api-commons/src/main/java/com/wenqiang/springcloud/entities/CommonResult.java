@@ -10,7 +10,7 @@ import java.io.Serializable;
 @AllArgsConstructor
 @NoArgsConstructor
 public class CommonResult<T> implements Serializable {
-//
+
     private Integer code;
     private String  message;
     private T       data;
