@@ -1,0 +1,3 @@
+com\wenqiang\springcloud\service\PaymentFeignService.class
+com\wenqiang\springcloud\controller\OrderFeignController.class
+com\wenqiang\springcloud\OrderFeignMain80.class
