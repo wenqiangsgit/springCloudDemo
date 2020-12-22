@@ -1,9 +1,0 @@
-server:
-  port: 80
-spring:
-  application:
-    name: cloud-consumer-order
-  cloud:
-    #注册到zookeeper地址
-    zookeeper:
-      connect-string: node01:2181,node02:2181,node03:2181
