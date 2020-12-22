@@ -23,4 +23,10 @@ public class OrderFeignController {
         return paymentFeignService.getPaymentById(id);
     }
 
+
+    @GetMapping("/payment/zipkin")
+    public String zipkin(){
+        return paymentFeignService.zipkin();
+    }
+
 }
